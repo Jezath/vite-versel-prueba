@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={`${dark ? "dark bg-gray-900" : ""} `}>
       <section className='min-h-screen container mx-auto px-9'>
-        <nav className='py-10 mb-12 flex justify-between'>
+        <nav className='py-10 mb-8 flex justify-between'>
           <h1 className='text-3xl dark:text-slate-300'>Developed</h1>
 
           <ul className='flex items-center'>
@@ -29,7 +29,7 @@ function App() {
 
         </nav>
 
-        <div className='text-center p-10'>
+        <div className='text-center p-8'>
           <h2 className='text-5xl py-2 text-teal-600 font-medium'>Jonathan Zamora</h2>
           <h3 className='text-2xl dark:text-slate-300'>Developer and designer</h3>
           <p className='text-md py-5 leading-8 text-gray-800 dark:text-slate-300'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -42,6 +42,7 @@ function App() {
           <div className='bg-slate-600 mt-5 dark:bg-slate-800 p-5'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Diseños</h2>
             <h3 className='text-2xl text-white dark:text-slate-300'>Asombrosos</h3>
+            <img src="../public/diferir-el-analisis-de-javascript.png" style={{width:"250px"}} alt="" className='my-6'/>
             <p className='text-white dark:text-slate-300'>Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
