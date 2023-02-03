@@ -42,7 +42,7 @@ function App() {
           <div className='bg-slate-600 mt-5 dark:bg-slate-800 p-5'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Diseños</h2>
             <h3 className='text-2xl text-white dark:text-slate-300'>Asombrosos</h3>
-            <img src="../public/diferir-el-analisis-de-javascript.png" style={{width:"250px"}} alt="" className='my-6'/>
+            <img src="../public/diferir-el-analisis-de-javascript.png" style={{width:"250px"}} alt="foto aqui" className='my-6'/>
             <p className='text-white dark:text-slate-300'>Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
