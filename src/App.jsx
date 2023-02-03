@@ -24,7 +24,7 @@ function App() {
                 setDark(!dark)
               }}/>
             </li>
-            <li><a href='#' className='bg-teal-600 text-white px-4 py-2 rounded-md ml-8 hover:bg-teal-900'>Resume</a></li>
+            <li><a href='#' className='bg-teal-600 text-white px-4 py-2 rounded-md ml-4 hover:bg-teal-900'>Resume</a></li>
           </ul>
 
         </nav>
