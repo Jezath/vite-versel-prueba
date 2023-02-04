@@ -5,7 +5,7 @@ import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin } from 'react-icons/a
 import { Services } from './Services'
 import { Portafolio } from './Portafolio'
 import { Footer } from './Footer'
-import Img from './assets/laptop.jpg'
+import Img from './assets/laptop.webp'
 
 function App() {
   //darkmode: archivo tailwind.config poner darkMode: 'class',
