@@ -5,6 +5,7 @@ import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin } from 'react-icons/a
 import { Services } from './Services'
 import { Portafolio } from './Portafolio'
 import { Footer } from './Footer'
+import Img from './assets/laptop.jpg'
 
 function App() {
   //darkmode: archivo tailwind.config poner darkMode: 'class',
@@ -43,7 +44,7 @@ function App() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Diseños</h2>
             <h3 className='text-2xl text-white dark:text-slate-300'>Asombrosos</h3>
            <div className='flex justify-center'>
-            <img src='../public/p6.webp' style={{width:"250px"}} alt="foto aqui" className='my-6'/>
+            <img src={Img} style={{width:"250px"}} alt="foto aqui" className='my-6'/>
            </div>
             <p className='text-white dark:text-slate-300'>Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
