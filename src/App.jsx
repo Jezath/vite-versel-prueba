@@ -20,7 +20,7 @@ function App() {
           <ul className='flex items-center'>
             <li>
               {/* dark mode */}
-              <RiMoonFill className='cursor-pointer dark:text-slate-300 w-9 h-9' onClick={() => {
+              <RiMoonFill className='cursor-pointer text-teal-700 dark:text-slate-300 w-9 h-9' onClick={() => {
                 setDark(!dark)
               }}/>
             </li>
@@ -42,7 +42,9 @@ function App() {
           <div className='bg-slate-600 mt-5 dark:bg-slate-800 p-5'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Diseños</h2>
             <h3 className='text-2xl text-white dark:text-slate-300'>Asombrosos</h3>
-            <img src='https://images.ctfassets.net/yr4qj72ki4ky/legacyBlogPost77Thumbnail/cd4783ad7b35efc4367166a570a9952e/bigstock-Real-Java-Script-Code-Developi-217215433.jpg' style={{width:"250px"}} alt="foto aqui" className='my-6'/>
+           <div className='flex justify-center'>
+            <img src='../public/p6.webp' style={{width:"250px"}} alt="foto aqui" className='my-6'/>
+           </div>
             <p className='text-white dark:text-slate-300'>Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
