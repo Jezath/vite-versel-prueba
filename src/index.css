@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    background: transparent;
+    gap: .60rem;
+}
+
+.div-t {
+    background: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition:  all .5s;
+    transform-origin: left;
+}
+
+.btn div:first-child {
+    transform: rotate(45deg);
+}
+.btn div:nth-child(2) {
+    opacity: 0;
+}
+.btn div:last-child {
+    transform: rotate(-45deg);
+}
+
+
+.btn-f div:first-child {
+    transform: rotate(0deg);
+}
+.btn-f div:nth-child(2) {
+    opacity: 1;
+}
+.btn-f div:last-child {
+    transform: rotate(0deg);
+}

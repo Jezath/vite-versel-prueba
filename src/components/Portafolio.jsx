@@ -1,6 +1,7 @@
 import React from 'react'
 //import img de array con objetos
 import { imgArrayObjetos } from '../data'
+import { Boton } from './Boton'
 
 export const Portafolio = () => {
   return (
@@ -20,6 +21,7 @@ export const Portafolio = () => {
           }) 
         }
         </div>
+        {/* <Boton /> */}
     </div>
   )
 }
