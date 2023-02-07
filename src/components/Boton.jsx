@@ -11,10 +11,10 @@ export const Boton = () => {
         else setAct(true) 
         
         console.log(act)
-    }} className={`btn ${act ? 'btn-f' : ''}`}>
-        <div className='div-t'></div>
-        <div className='div-t'></div>
-        <div className='div-t'></div>
+    }} className={`btn ${act ? 'btn-f' : ''} `}>
+        <div className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></div>
+        <div className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></div>
+        <div className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></div>
     </button>
   )
 }

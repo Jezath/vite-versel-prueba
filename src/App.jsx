@@ -16,8 +16,6 @@ function App() {
   //useState para cambiar el estado de la clase
   const [dark, setDark] = useState(false);
 
-  const [navMobile, setNavMobile ] = useState(true);
-  
   return (
     <div className={`${dark ? "dark bg-gray-900" : ""} `}>
 
@@ -32,7 +30,7 @@ function App() {
                 setDark(!dark)
               }}/>
             </div>
-            <div>
+            <div className='md:hidden'>
               <Boton />
             </div>
           </div>
