@@ -11,7 +11,7 @@ export const Portafolio = () => {
         <p className='py-3 leading-8 text-gray-800 dark:text-slate-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloremque quisquam fugiat! A repellendus eum eos et, perspiciatis consequuntur, architecto dolores provident aut obcaecati quibusdam dolorem. Libero accusantium quas deserunt.</p>
         <p className='py-3 leading-8 text-gray-800 dark:text-slate-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloremque quisquam fugiat! A repellendus eum eos et, perspiciatis consequuntur, architecto dolores provident aut obcaecati quibusdam dolorem. Libero accusantium quas deserunt.</p>
 
-        <div className='flex justify-around flex-wrap bg-slate-600 p-5 mt-5 gap-5'>
+        <div className='flex justify-around flex-wrap bg-slate-700 p-5 mt-5 gap-5'>
         {
           imgArrayObjetos.map((item, index) => {
             return <div key={index}>

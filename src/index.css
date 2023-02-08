@@ -13,23 +13,23 @@
 }
 
 
-.btn div:first-child {
+.btn span:first-child {
     transform: rotate(45deg);
 }
-.btn div:nth-child(2) {
+.btn span:nth-child(2) {
     opacity: 0;
 }
-.btn div:last-child {
+.btn span:last-child {
     transform: rotate(-45deg);
 }
 
 
-.btn-f div:first-child {
+.btn-f span:first-child {
     transform: rotate(0deg);
 }
-.btn-f div:nth-child(2) {
+.btn-f span:nth-child(2) {
     opacity: 1;
 }
-.btn-f div:last-child {
+.btn-f span:last-child {
     transform: rotate(0deg);
 }
