@@ -30,3 +30,20 @@ export const imgArrayObjetos = [
     }
 ]
 
+//data menu nav
+export const navegation = [
+    {
+        name: 'About',
+        href: 'About',   
+    },
+    {
+        name: 'Services',
+        href: 'Services',   
+    },
+    {
+        name: 'Portafolio',
+        href: 'Portafolio',   
+    }
+]
+
+

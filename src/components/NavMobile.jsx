@@ -1,5 +1,6 @@
 import React from 'react'
-import { Boton } from './Boton'
+import { navegation } from '../data'
+import { Link } from 'react-scroll'
 
 export const NavMobile = ({navMobile, setNavMobile}) => {
   return (
@@ -7,8 +8,7 @@ export const NavMobile = ({navMobile, setNavMobile}) => {
         <div className='container mx-auto px-7 flex justify-between'>
             <div></div>
             <div>
-                {/* <button onClick={() => setNavMobile(false)} className='btn bg-slate-600 rounded-full dark:bg-slate-300'/> */}
-
+                
                 <button onClick={() => {
                     navMobile ? setNavMobile(false) : setNavMobile(true)
                     //setNavMobile(false)
@@ -20,8 +20,17 @@ export const NavMobile = ({navMobile, setNavMobile}) => {
 
             </div>
         </div>
-        <div className='text-center'>
-            <a href=".#" onClick={() => setNavMobile(false)}>Hola</a>
+        <div className='text-center h-screen flex flex-col justify-center gap-7'>
+            {
+                navegation.map((item, index) => {
+                    return (
+                    <li key={index} className='list-none'>
+                        <Link to={item.href} spy={true} smooth={true} duration={500} className='text-2xl dark:text-slate-300 cursor-pointer'>{item.name}</Link>
+                    </li>
+                    )
+                })
+            }
+        
         </div>
     </div>
   )

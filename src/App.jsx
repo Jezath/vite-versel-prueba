@@ -9,6 +9,7 @@ import { About } from './components/About'
 import { Card } from './components/Card'
 import { Header } from './components/Header'
 import { NavMobile } from './components/NavMobile'
+import { Nav } from './components/Nav'
 
 function App() {
   //darkmode: archivo tailwind.config poner darkMode: 'class',
@@ -31,6 +32,8 @@ function App() {
         </div>
 
       <section className='min-h-screen container mx-auto px-7'>
+
+        {/* <Nav /> */}
 
         <About />
         

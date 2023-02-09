@@ -1,8 +1,8 @@
 import React from 'react'
-import { Boton } from './Boton'
 
 //import icon moon
 import { RiMoonFill } from 'react-icons/ri'
+import { Nav } from './Nav'
 
 export const Header = ({darkMode, navMobile,setNavMobile}) => {
   return (
@@ -10,7 +10,12 @@ export const Header = ({darkMode, navMobile,setNavMobile}) => {
 
         <div className='container mx-auto px-7 flex justify-between'>
             <h1 className='text-3xl dark:text-slate-300'>Developed</h1>
+            
             <div className='flex items-center gap-5'>
+                
+                <div className='hidden lg:block'>
+                    <Nav />
+                </div>
 
                 <div>
                     {/* dark mode */}
@@ -20,15 +25,11 @@ export const Header = ({darkMode, navMobile,setNavMobile}) => {
                 </div>
                 
                 <div>
-                    {/* <button onClick={() => {
-                        setNavMobile(true) 
-                        console.log(setNavMobile)
-                    }} className='btn bg-slate-600 rounded-full dark:bg-slate-300 md:hidden'/> */}
-
+                   
                 <button onClick={() => {
                     navMobile ? setNavMobile(false) : setNavMobile(true)
                     // setNavMobile(false)
-                }} className={`btn ${ !navMobile ? 'btn-f' : ' '}`}>
+                }} className={`btn ${ !navMobile ? 'btn-f' : ' '} md:hidden`}>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
