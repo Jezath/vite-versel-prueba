@@ -4,7 +4,7 @@ import { Boton } from './Boton'
 //import icon moon
 import { RiMoonFill } from 'react-icons/ri'
 
-export const Header = ({darkMode}) => {
+export const Header = ({darkMode, setNavMobile}) => {
   return (
     <header className='py-8 fixed top-0 w-full bg-white dark:bg-slate-700'>
 
@@ -17,8 +17,15 @@ export const Header = ({darkMode}) => {
                     darkMode()
                     }}/>
                 </div>
-                <div className='md:hidden '>
+                {/* <div className={`'md:hidden' ${ dark ? 'absolute top-0 w-screen bottom-0 bg-red-300 right-0' : '-right-full'} transition-all`}>
+                {console.log(dark)}
                     <Boton />
+                </div> */}
+                <div>
+                    <button onClick={() => {
+                        setNavMobile(true) 
+                        console.log(setNavMobile)
+                    }} className='btn bg-slate-600 rounded-full dark:bg-slate-300'/>
                 </div>
             </div>
         </div>

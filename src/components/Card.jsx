@@ -11,7 +11,7 @@ export const Card = () => {
         <div className='flex justify-center'>
         <img src={dataImg.img} style={{width:"250px"}} alt="foto aqui" className='my-5'/>
         </div>
-        <p className='text-slate-300 py-3 leading-8'>Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit..</p>
+        <p className='text-slate-300 py-3 leading-8'>Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit</p>
     </div>
   )
 }
