@@ -29,7 +29,7 @@ function App() {
         
         <Header darkMode={darkMode} setNavMobile={setNavMobile} navMobile={navMobile}/>
 
-        <div className={`${navMobile ? 'right-0' : '-right-full'} fixed top-0 bottom-0 w-full transition-all bg-white dark:bg-slate-700`}>
+        <div className={`${navMobile ? 'right-0' : '-right-full'} fixed top-0 bottom-0 w-full transition-all bg-white dark:bg-slate-700 lg:hidden`}>
           <NavMobile setNavMobile={setNavMobile} navMobile={navMobile}/>
         </div>
 

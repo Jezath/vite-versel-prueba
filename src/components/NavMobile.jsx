@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 export const NavMobile = ({navMobile, setNavMobile}) => {
   return (
-    <div>
+    <div className='flex justify-center'>
         <div className='py-8 container mx-auto px-7 flex justify-between absolute'>
             <div></div>
             <div>

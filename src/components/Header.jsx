@@ -28,9 +28,9 @@ export const Header = ({darkMode, navMobile, setNavMobile}) => {
                    
                 <button onClick={() => {
                     navMobile ? setNavMobile(false) : setNavMobile(true)
-                    //console.log(navMobile)
+                    console.log(navMobile)
                     //setNavMobile(true)
-                }} className={`btn ${ navMobile ? 'btn' : 'btn-f'} md:hidden`}>
+                }} className={`btn ${ navMobile ? 'btn' : 'btn-f'} lg:hidden`}>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
