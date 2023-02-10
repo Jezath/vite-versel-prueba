@@ -1,5 +1,6 @@
 //img objeto : import 1
 import Img from './assets/laptop.webp'
+import Img2 from './assets/laptop 2.jpg'
 //img arrays : import 2
 import react from './assets/react.jpg'
 import javascript from './assets/javascript.jpg'
@@ -10,6 +11,7 @@ import port2 from './assets/port 2.webp'
 //import 1
 export const dataImg = {
     img: Img,
+    img2: Img2
 }
 
 //import 2

@@ -15,8 +15,10 @@ function App() {
   //darkmode: archivo tailwind.config poner darkMode: 'class',
   //useState para cambiar el estado de la clase
   const [dark, setDark] = useState(false);
-  const [navMobile, setNavMobile ] = useState(false);
 
+  //boton de menu
+  const [navMobile, setNavMobile ] = useState(false);
+  
   //function dark mode
   const darkMode = () => {
     dark ? setDark(false) :  setDark(true)

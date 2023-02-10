@@ -4,11 +4,12 @@
 
 .btn {
     display: flex;
+    padding-top: 4px;
     flex-direction: column;
     width: 2rem;
     height: 2rem;
     border: 0;
-    /* background: transparent; */
+    background: transparent;
     gap: .60rem;
 }
 

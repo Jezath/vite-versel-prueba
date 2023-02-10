@@ -4,7 +4,7 @@ import React from 'react'
 import { RiMoonFill } from 'react-icons/ri'
 import { Nav } from './Nav'
 
-export const Header = ({darkMode, navMobile,setNavMobile}) => {
+export const Header = ({darkMode, navMobile, setNavMobile}) => {
   return (
     <header className='py-8 fixed top-0 w-full bg-white dark:bg-slate-700'>
 
@@ -28,8 +28,9 @@ export const Header = ({darkMode, navMobile,setNavMobile}) => {
                    
                 <button onClick={() => {
                     navMobile ? setNavMobile(false) : setNavMobile(true)
-                    // setNavMobile(false)
-                }} className={`btn ${ !navMobile ? 'btn-f' : ' '} md:hidden`}>
+                    //console.log(navMobile)
+                    //setNavMobile(true)
+                }} className={`btn ${ navMobile ? 'btn' : 'btn-f'} md:hidden`}>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>

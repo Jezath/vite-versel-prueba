@@ -6,7 +6,7 @@ import { dataImg } from '../data'
 export const Card = () => {
   return (
     <div className='bg-slate-700 mt-8 text-center p-5'>
-        <h2 className='text-5xl text-teal-600 font-medium pt-3'>Diseños</h2>
+        <h2 className='text-5xl text-teal-600 font-medium pt-3'>Card</h2>
         <h3 className='text-2xl text-slate-300'>Asombrosos</h3>
         <div className='flex justify-center'>
         <img src={dataImg.img} style={{width:"250px"}} alt="foto aqui" className='my-5'/>
