@@ -9,7 +9,7 @@ import {
 
 export const About = () => {
   return (
-    <div className='text-center mt-24 pt-14 pb-5' id='About'>
+    <div className='text-center mt-16 pt-16 pb-5' id='About'>
 
           <h2 className='text-5xl text-teal-600 font-medium'>Jonathan Zamora</h2>
           <h3 className='text-2xl dark:text-slate-300'>Developer and designer</h3>

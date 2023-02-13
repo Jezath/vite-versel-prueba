@@ -15,7 +15,7 @@ export const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
-
+        //resect formulario
         e.target.reset()
     };
 

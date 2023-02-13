@@ -9,14 +9,14 @@ export const NavMobile = ({navMobile, setNavMobile}) => {
             <div></div>
             <div>
                 
-                <button onClick={() => {
+                {/* <button onClick={() => {
                     navMobile ? setNavMobile(false) : setNavMobile(true)
                     //setNavMobile(false)
                 }} className={` ${ !navMobile ? 'btn-f' : ''} btn`}>
                     <span className='origin-left transition-all bg-black w-full h-[2px]  dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px]  dark:bg-slate-300'></span>
                     <span className='origin-left transition-all bg-black w-full h-[2px]  dark:bg-slate-300'></span>
-                </button>
+                </button> */}
 
             </div>
         </div>
