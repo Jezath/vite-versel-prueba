@@ -1,7 +1,7 @@
 import React from 'react'
 
-//import react-type-animation
-import { TypeAnimation } from 'react-type-animation'
+//import react-type-animation /* error se ve en efecto cuando abres el navMobile */
+//import { TypeAnimation } from 'react-type-animation'
 
 //import icons social red
 import { 
@@ -14,18 +14,19 @@ export const About = () => {
   return (
     <div className='mt-16 pt-16 pb-5' id='About'>
 
-        <div >
+        <div className='text-center'>
           <h1 className='text-5xl text-teal-600 font-medium'>Jonathan Zamora</h1>
-          <TypeAnimation 
+          <h3 className='text-3xl dark:text-slate-300 pt-3'>Developer and Designer</h3>
+          {/* <TypeAnimation 
             sequence={[
                 'Front-End Developer', 2000,
                 'Designer UX/UI', 2000,
               ]}
             speed={50}
-            className='text-2xl dark:text-slate-300'
+            className='text-2xl dark:text-slate-300 type'
             wrapper='span'
             repeat={Infinity}
-          />
+          /> */}
           <p className='py-6 leading-8 text-gray-800 dark:text-slate-300'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
