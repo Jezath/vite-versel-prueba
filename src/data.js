@@ -45,7 +45,11 @@ export const navegation = [
     {
         name: 'Portafolio',
         href: 'Portafolio',   
-    }
+    },
+    {
+        name: 'Contacto',
+        href: 'Contacto',   
+    },
 ]
 
 

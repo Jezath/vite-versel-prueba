@@ -10,6 +10,7 @@ import { Card } from './components/Card'
 import { Header } from './components/Header'
 import { NavMobile } from './components/NavMobile'
 import { Nav } from './components/Nav'
+import { Contact } from './components/Contact'
 
 function App() {
   //darkmode: archivo tailwind.config poner darkMode: 'class',
@@ -44,6 +45,8 @@ function App() {
         <Services />
 
         <Portafolio />
+
+        <Contact />
 
       </section>
 
