@@ -4,25 +4,26 @@
 
 .btn {
     display: flex;
-    padding-top: 4px;
+    /* padding-top: 4px; */
+    justify-content: center;
     flex-direction: column;
     width: 2rem;
     height: 2rem;
     border: 0;
-    background: transparent;
-    
-    gap: .55rem;
+    /* background: transparent; */
+    /* background-color: cornflowerblue; */
+    gap: .50rem;
 }
 
 
 .btn span:first-child {
-    transform: rotate(44deg);
+    transform: translateY(-1px)  rotate(45deg);
 }
 .btn span:nth-child(2) {
     opacity: 0;
 }
 .btn span:last-child {
-    transform: rotate(-44deg);
+    transform: translateY(0px) rotate(-45deg);
 }
 
 

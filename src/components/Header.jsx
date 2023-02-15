@@ -35,9 +35,9 @@ export const Header = ({darkMode, navMobile, setNavMobile}) => {
                     console.log(navMobile)
                     //setNavMobile(true)
                 }} className={`btn ${ navMobile ? 'btn' : 'btn-f'} lg:hidden`}>
-                    <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
-                    <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
-                    <span className='origin-left transition-all bg-black w-full h-[2px] rounded dark:bg-slate-300'></span>
+                    <span className='origin-left transition-all bg-black w-full h-[3px] rounded dark:bg-slate-300'></span>
+                    <span className='origin-left transition-all bg-black w-full h-[3px] rounded dark:bg-slate-300'></span>
+                    <span className='origin-left transition-all bg-black w-full h-[3px] rounded dark:bg-slate-300'></span>
                 </button>
                 </div>
 
