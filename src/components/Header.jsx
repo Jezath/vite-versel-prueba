@@ -6,7 +6,7 @@ import { Nav } from './Nav'
 
 export const Header = ({darkMode, navMobile, setNavMobile}) => {
   return (
-    <header className='py-6 fixed top-0 w-full bg-white dark:bg-slate-700 z-20'>
+    <header className='py-6 fixed top-0 w-full bg-white dark:bg-slate-700 z-50'>
 
         <div className='container mx-auto px-7 flex justify-between'>
             <h1 className='text-3xl dark:text-slate-300'>Logo</h1>
