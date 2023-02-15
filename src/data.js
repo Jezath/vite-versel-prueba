@@ -89,4 +89,43 @@ export const projects = [
             }
         ]
     },
+    {
+        title: "hola 1",
+        img: Img,
+        link: "nose.com",
+        tools: [
+            {
+                img: iconReact,
+            },
+            {
+                img: iconReact
+            }
+        ]
+    },
+    {
+        title: "hola 1",
+        img: Img,
+        link: "nose.com",
+        tools: [
+            {
+                img: iconReact,
+            },
+            {
+                img: iconReact
+            }
+        ]
+    },
+    {
+        title: "hola 1",
+        img: Img,
+        link: "nose.com",
+        tools: [
+            {
+                img: iconReact,
+            },
+            {
+                img: iconReact
+            }
+        ]
+    },
 ]

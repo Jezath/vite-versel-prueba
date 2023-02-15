@@ -10,18 +10,19 @@
     height: 2rem;
     border: 0;
     background: transparent;
-    gap: .60rem;
+    
+    gap: .55rem;
 }
 
 
 .btn span:first-child {
-    transform: rotate(45deg);
+    transform: rotate(44deg);
 }
 .btn span:nth-child(2) {
     opacity: 0;
 }
 .btn span:last-child {
-    transform: rotate(-45deg);
+    transform: rotate(-44deg);
 }
 
 
