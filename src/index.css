@@ -17,13 +17,13 @@
 
 
 .btn span:first-child {
-    transform: translateY(-1px)  rotate(45deg);
+    transform: translateY(0px)  rotate(45deg);
 }
 .btn span:nth-child(2) {
     opacity: 0;
 }
 .btn span:last-child {
-    transform: translateY(0px) rotate(-45deg);
+    transform: translateY(1px) rotate(-45deg);
 }
 
 
